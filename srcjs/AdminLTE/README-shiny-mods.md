@@ -4,6 +4,8 @@ This branch of AdminLTE contains the following changes from the stock version, t
 
 * In AdminLTE.css, the fonts are fetched from the local host, instead of from Google fonts (must re-apply commits e9e63d1 and 9ccb12d when updating to newer version of Admin LTE).
 
+* Removed slimscroll error message when fixed sidebar is used
+
 * Add the following code chunk to app.js (see commit c3a0c59):
 
 ```js

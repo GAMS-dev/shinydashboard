@@ -48,7 +48,7 @@ $.AdminLTE.options = {
   //Activate sidebar push menu
   sidebarPushMenu: true,
   //Activate sidebar slimscroll if the fixed layout is set (requires SlimScroll Plugin)
-  sidebarSlimScroll: true,
+  sidebarSlimScroll: false,
   //Enable sidebar expand on hover effect for sidebar mini
   //This option is forced to true if both the fixed layout and sidebar mini
   //are used together
@@ -171,15 +171,6 @@ $(function () {
     $.AdminLTE.controlSidebar.activate();
   }
 
-  //Add slimscroll to navbar dropdown
-  if (o.navbarMenuSlimscroll && typeof $.fn.slimscroll != 'undefined') {
-    $(".navbar .menu").slimscroll({
-      height: o.navbarMenuHeight,
-      alwaysVisible: false,
-      size: o.navbarMenuSlimscrollWidth
-    }).css("width", "100%");
-  }
-
   //Activate sidebar push menu
   if (o.sidebarPushMenu) {
     $.AdminLTE.pushMenu.activate(o.sidebarToggleSelector);
@@ -287,12 +278,7 @@ function _init() {
     fixSidebar: function () {
       //Make sure the body tag has the .fixed class
       if (!$("body").hasClass("fixed")) {
-        if (typeof $.fn.slimScroll != 'undefined') {
-          $(".sidebar").slimScroll({destroy: true}).height("auto");
-        }
         return;
-      } else if (typeof $.fn.slimScroll == 'undefined' && window.console) {
-        window.console.error("Error: the fixed layout requires the slimscroll plugin!");
       }
       //Enable slimscroll for fixed layout
       if ($.AdminLTE.options.sidebarSlimScroll) {
