@@ -7,7 +7,7 @@
 renderMenu(expr, env = parent.frame(), quoted = FALSE, outputArgs = list())
 }
 \arguments{
-\item{expr}{An expression that returns a Shiny tag object, \code{\link[shiny:reexports]{HTML()}},
+\item{expr}{An expression that returns a Shiny tag object, \code{\link[shiny:HTML]{HTML()}},
 or a list of such objects.}
 
 \item{env}{The parent environment for the reactive expression. By default,
@@ -21,7 +21,7 @@ would like to use its expression as a value for \code{expr}, then you must set
 \code{quoted} to \code{TRUE}.}
 
 \item{outputArgs}{A list of arguments to be passed through to the implicit
-call to \code{\link[shiny:htmlOutput]{uiOutput()}} when \code{renderUI} is used in an
+call to \code{\link[shiny:uiOutput]{uiOutput()}} when \code{renderUI} is used in an
 interactive R Markdown document.}
 }
 \description{
@@ -99,8 +99,8 @@ shinyApp(ui, server)
 }
 }
 \seealso{
-\code{\link{menuOutput}} for the corresponding client side function
-  and examples.
+\code{\link[=menuOutput]{menuOutput()}} for the corresponding client side function
+and examples.
 
 Other menu outputs: 
 \code{\link{dropdownMenuOutput}()},

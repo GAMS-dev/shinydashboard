@@ -11,22 +11,23 @@ Create dashboards with 'Shiny'. This package provides a theme on top of 'Shiny',
 \seealso{
 Useful links:
 \itemize{
-  \item \url{http://rstudio.github.io/shinydashboard/}
-  \item Report bugs at \url{https://github.com/rstudio/shinydashboard}
+  \item \url{https://rstudio.github.io/shinydashboard/}
+  \item \url{https://github.com/rstudio/shinydashboard}
+  \item Report bugs at \url{https://github.com/rstudio/shinydashboard/issues}
 }
 
 }
 \author{
-\strong{Maintainer}: Winston Chang \email{winston@rstudio.com}
+\strong{Maintainer}: Winston Chang \email{winston@posit.co}
 
 Authors:
 \itemize{
-  \item Barbara Borges Ribeiro \email{barbara@rstudio.com}
+  \item Barbara Borges Ribeiro
 }
 
 Other contributors:
 \itemize{
-  \item  RStudio [copyright holder]
+  \item  Posit Software, PBC [copyright holder]
   \item  Almasaeed Studio (AdminLTE theme for Bootstrap) [contributor, copyright holder]
   \item  Adobe Systems Incorporated (Source Sans Pro font) [contributor, copyright holder]
 }
