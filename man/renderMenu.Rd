@@ -102,10 +102,10 @@ shinyApp(ui, server)
 \code{\link[=menuOutput]{menuOutput()}} for the corresponding client side function
 and examples.
 
-Other menu outputs: 
-\code{\link{dropdownMenuOutput}()},
-\code{\link{menuItemOutput}()},
-\code{\link{menuOutput}()},
-\code{\link{sidebarMenuOutput}()}
+Other menu outputs:
+\code{\link[=dropdownMenuOutput]{dropdownMenuOutput()}},
+\code{\link[=menuItemOutput]{menuItemOutput()}},
+\code{\link[=menuOutput]{menuOutput()}},
+\code{\link[=sidebarMenuOutput]{sidebarMenuOutput()}}
 }
 \concept{menu outputs}

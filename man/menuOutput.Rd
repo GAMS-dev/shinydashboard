@@ -24,10 +24,10 @@ present; for example, \code{\link[=dropdownMenuOutput]{dropdownMenuOutput()}} an
 \code{\link[=renderMenu]{renderMenu()}} for the corresponding server side function
 and examples.
 
-Other menu outputs: 
-\code{\link{dropdownMenuOutput}()},
-\code{\link{menuItemOutput}()},
-\code{\link{renderMenu}()},
-\code{\link{sidebarMenuOutput}()}
+Other menu outputs:
+\code{\link[=dropdownMenuOutput]{dropdownMenuOutput()}},
+\code{\link[=menuItemOutput]{menuItemOutput()}},
+\code{\link[=renderMenu]{renderMenu()}},
+\code{\link[=sidebarMenuOutput]{sidebarMenuOutput()}}
 }
 \concept{menu outputs}

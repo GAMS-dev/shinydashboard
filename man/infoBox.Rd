@@ -49,9 +49,9 @@ boxes are meant to be placed in the main body of a dashboard.
 \seealso{
 \code{\link[=box]{box()}} for usage examples.
 
-Other boxes: 
-\code{\link{box}()},
-\code{\link{tabBox}()},
-\code{\link{valueBox}()}
+Other boxes:
+\code{\link[=box]{box()}},
+\code{\link[=tabBox]{tabBox()}},
+\code{\link[=valueBox]{valueBox()}}
 }
 \concept{boxes}

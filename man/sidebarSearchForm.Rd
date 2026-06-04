@@ -27,8 +27,8 @@ A search form consists of a text input field and a search button.
 \seealso{
 \code{\link[=dashboardSidebar]{dashboardSidebar()}} for example usage.
 
-Other sidebar items: 
-\code{\link{sidebarMenu}()},
-\code{\link{sidebarUserPanel}()}
+Other sidebar items:
+\code{\link[=sidebarMenu]{sidebarMenu()}},
+\code{\link[=sidebarUserPanel]{sidebarUserPanel()}}
 }
 \concept{sidebar items}

@@ -17,10 +17,10 @@ This is the UI-side function for creating a dynamic sidebar menu item.
 and examples, and \code{\link[=menuItem]{menuItem()}} for the corresponding function
 for generating static sidebar menus.
 
-Other menu outputs: 
-\code{\link{dropdownMenuOutput}()},
-\code{\link{menuOutput}()},
-\code{\link{renderMenu}()},
-\code{\link{sidebarMenuOutput}()}
+Other menu outputs:
+\code{\link[=dropdownMenuOutput]{dropdownMenuOutput()}},
+\code{\link[=menuOutput]{menuOutput()}},
+\code{\link[=renderMenu]{renderMenu()}},
+\code{\link[=sidebarMenuOutput]{sidebarMenuOutput()}}
 }
 \concept{menu outputs}

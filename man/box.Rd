@@ -177,9 +177,9 @@ shinyApp(
 }
 }
 \seealso{
-Other boxes: 
-\code{\link{infoBox}()},
-\code{\link{tabBox}()},
-\code{\link{valueBox}()}
+Other boxes:
+\code{\link[=infoBox]{infoBox()}},
+\code{\link[=tabBox]{tabBox()}},
+\code{\link[=valueBox]{valueBox()}}
 }
 \concept{boxes}

@@ -4,7 +4,7 @@
 \name{shinydashboard-package}
 \alias{shinydashboard}
 \alias{shinydashboard-package}
-\title{shinydashboard: Create Dashboards with 'Shiny'}
+\title{shinydashboard: Create Dashboards with 'Shiny' (modified for GAMS MIRO)}
 \description{
 Create dashboards with 'Shiny'. This package provides a theme on top of 'Shiny', making it easy to create attractive dashboards.
 }
@@ -22,7 +22,9 @@ Useful links:
 
 Authors:
 \itemize{
+  \item Winston Chang \email{winston@posit.co}
   \item Barbara Borges Ribeiro
+  \item Frederik Proske \email{fproske@fams.com}
 }
 
 Other contributors:

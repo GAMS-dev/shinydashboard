@@ -32,9 +32,9 @@ to be placed in the main body of a dashboard.
 \seealso{
 \code{\link[=box]{box()}} for usage examples.
 
-Other boxes: 
-\code{\link{box}()},
-\code{\link{infoBox}()},
-\code{\link{tabBox}()}
+Other boxes:
+\code{\link[=box]{box()}},
+\code{\link[=infoBox]{infoBox()}},
+\code{\link[=tabBox]{tabBox()}}
 }
 \concept{boxes}

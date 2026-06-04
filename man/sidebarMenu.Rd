@@ -105,8 +105,8 @@ colored oval containing text.
 dynamically-generated sidebar menus, see \code{\link[=renderMenu]{renderMenu()}} and
 \code{\link[=sidebarMenuOutput]{sidebarMenuOutput()}}.
 
-Other sidebar items: 
-\code{\link{sidebarSearchForm}()},
-\code{\link{sidebarUserPanel}()}
+Other sidebar items:
+\code{\link[=sidebarSearchForm]{sidebarSearchForm()}},
+\code{\link[=sidebarUserPanel]{sidebarUserPanel()}}
 }
 \concept{sidebar items}

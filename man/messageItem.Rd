@@ -32,8 +32,8 @@ Create a message item to place in a dropdown message menu
 \seealso{
 \code{\link[=dashboardHeader]{dashboardHeader()}} for example usage.
 
-Other menu items: 
-\code{\link{notificationItem}()},
-\code{\link{taskItem}()}
+Other menu items:
+\code{\link[=notificationItem]{notificationItem()}},
+\code{\link[=taskItem]{taskItem()}}
 }
 \concept{menu items}

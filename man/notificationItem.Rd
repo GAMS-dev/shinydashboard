@@ -27,8 +27,8 @@ Create a notification item to place in a dropdown notification menu
 \seealso{
 \code{\link[=dashboardHeader]{dashboardHeader()}} for example usage.
 
-Other menu items: 
-\code{\link{messageItem}()},
-\code{\link{taskItem}()}
+Other menu items:
+\code{\link[=messageItem]{messageItem()}},
+\code{\link[=taskItem]{taskItem()}}
 }
 \concept{menu items}

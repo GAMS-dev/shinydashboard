@@ -21,8 +21,8 @@ A panel displaying user information in a sidebar
 \seealso{
 \code{\link[=dashboardSidebar]{dashboardSidebar()}} for example usage.
 
-Other sidebar items: 
-\code{\link{sidebarMenu}()},
-\code{\link{sidebarSearchForm}()}
+Other sidebar items:
+\code{\link[=sidebarMenu]{sidebarMenu()}},
+\code{\link[=sidebarSearchForm]{sidebarSearchForm()}}
 }
 \concept{sidebar items}
